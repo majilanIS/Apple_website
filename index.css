@@ -1,0 +1,439 @@
+body{
+    background-color: #F5F5F7;
+}
+.outer-wrapper{
+     
+}
+.header-wrapper .container-1{
+    /* margin: 20px 0; */
+    padding: 5px;
+    background-color: black;
+    gap: 10px;
+}
+.container-1 ul li{
+     list-style: none;
+     margin: 0 auto;
+}
+.container-1 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.image_2{
+    display: flex;
+    gap: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-2 .text-1{
+     margin: 10px 0;
+}
+.head-1 h1{
+    font-size: 50px;
+}
+.text-1-2 {
+    margin: 10px 0;
+}
+.text-1-2 p{
+    font-size: 45px;
+}
+.link-1 ul{
+      display: flex;
+      gap: 30px;
+}
+.link-1 ul li{
+    list-style: none;
+}
+.link-1 ul li a{
+    text-decoration: none;
+    color: darkcyan;
+    opacity: 1;
+    font-weight: 600;
+}
+
+
+/* <!--- Second Section--> */
+.container-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: black;
+}
+.head-2 {
+    margin-top: 50px ;
+    color: white;
+    font-size: 45px;
+}
+.text-2{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.text-2-1{
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.link-2{
+    margin: 10px;
+}
+.link-2 ul{
+    display: flex;
+    gap: 30px;
+}
+.link-2 ul li {
+    list-style: none;
+}
+.link-2 ul li a{
+     text-decoration: none;
+        color: darkcyan;
+        opacity: 1;
+        font-weight: 600;
+}
+.image-2 {
+    width: 400%;
+    height: auto;
+}
+
+
+/* < !--- third Section--> */
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+    /* margin: 50px 0; */
+}
+
+.head-3 {
+    margin-top: 50px;
+    /* color: whi; */
+    font-size: 45px;
+}
+
+.text-3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.text-3-1{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.link-3{
+    margin-top: 20px;
+}
+.link-3 ul{
+    display: flex;
+    gap: 30px;
+}
+.link-3 ul li{
+    list-style: none;
+}
+.link-3 ul li a{
+    text-decoration: none;
+       color: darkcyan;
+        opacity: 1;
+        font-weight: 600;
+}
+.image-3{
+     margin-top: 30px;
+     width: 400%;
+     height: auto;
+}
+/* .image-3 img{
+    margin: 30px;
+} */
+
+
+/* < !----Fourth Section--> */
+.container-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container-5-1 .icon-4{
+    margin-top: 30px;
+     text-align: center;
+}
+.container-5-2 .icon-5{
+    text-align: center;
+}
+.container-5-1 .text-4 p{
+    text-align: center;
+    font-size: 21px;
+}
+.container-5 .link-4 ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.link-4 ul li{
+    list-style: none;
+}
+.link-4 ul li a{
+    text-decoration: none;
+       color: darkcyan;
+        opacity: 1;
+        font-weight: 600;
+}
+.container-5-2 .text-4 P{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-5-1 .image-4 img{
+    width: 300%;
+    height: auto;
+    /* margin-right: 30px; */
+}
+.container-5-2 .image-5 img{
+    margin-top: 30px;
+      width: 300%;
+}
+
+/* < !----Fifth Section--> */
+.container-6{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.container-6 .container-6-1{
+    width: 50%;
+    background-image: url('images/home/apple-tv-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400%;
+    margin: 20px;
+}
+.container-6-1 .icon-6{
+    margin: 50px;
+}
+.container-6-1 .text{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-spacing-trim: space-all;
+}
+.container-6-1 h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-spacing-trim:trim-start;
+}
+.container-6-1 .text-bottom p{
+    margin-top: 180px;
+    text-align: center;
+}
+
+.container-6-2{
+    background-color: black;
+    color: white;
+}
+.container-6-2 h1{
+    margin: 30px;
+     font-size: 35px;
+}
+.container-6-2 .text{
+       margin: 10px;
+}
+.link-5 ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.link-5 ul li{
+    list-style: none;
+}
+.link-5 ul li a{
+    text-decoration: none;
+       color: darkcyan;
+        opacity: 1;
+        font-weight: 600;
+}
+.image-6 {
+    margin: 40px;
+    width: 200%;
+}
+
+/* section 6 */
+.container-7{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    color: black;
+}
+.container-7-1{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-7-1 .text{
+    text-align: center;
+}
+.container-7-1  h1{
+    text-align: center;
+    font-size: 45px;
+}
+.container-7-1 .text-2{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.link-6 ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.link-6 ul li{
+    list-style: none;
+}
+.link-6 ul li a{
+    text-decoration: none;
+        color: darkcyan;
+        opacity: 1;
+        font-weight: 600;
+}
+
+
+.container-7-2 .text{
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+.container-7-2 h1{
+    text-align: center;
+    font-size: 45px;
+}
+.container-7-2 .text-2{
+      color: black;
+      font-size: 18px;
+      text-align: center;
+}
+
+.image-7 img{
+    margin-top: 60px;
+}
+.image-7{
+    width: 150%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.image-7-1{
+    width: 150%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+
+/* footer */
+footer{
+    margin: 40px;
+}
+.text {
+    background-color:#F5F5F7 ;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+footer a{
+    text-decoration: none;
+}
+
+ ul li{
+    list-style: none;
+}
+
+.col {
+    display: flex;
+    gap: 50px;
+}
+.column-2 ul li{
+    list-style: none;
+}
+
+ul li a{
+    font-size: 15px;
+    opacity: .5;
+}
+
+.col p{
+    font-size: 18px;
+    opacity: 1;
+}
+
+.bottom-content p{
+ font-size: 18px;
+ font-weight: 200;
+}
+.Copyright p{
+    font-size: 13px;
+}
+
+.image-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.image-logo p{
+    font-size: 20px;
+    
+}
+
+
+.main-container-ref {
+    margin: 50px 50px;
+}
+
+.main-container-ref ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.main-container-ref ul li {
+    list-style: none;
+    width: 20%;
+    height: auto;
+    background-color: burlywood;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.main-container-ref ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: serif;
+
+}
+.Search-image-1{
+    width: 200px;
+    height: 60px;
+    display: block;
+
+    background-color: cadetblue;
+}
