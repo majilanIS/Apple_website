@@ -9,4 +9,6 @@ app.listen(port, (err) => {
 // app.get('/', (req, res) => {
 //     res.send('Hello World!')
 //   })
-app.use(express.static(Apple_Website));
+const path = require('path');
+
+app.use(express.static(path.join(__dirname))); // serves current directory
