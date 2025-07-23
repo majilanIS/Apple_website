@@ -11,4 +11,5 @@ app.listen(port, (err) => {
 //   })
 const path = require('path');
 
-app.use(express.static(path.join(__dirname))); // serves current directory
+app.use(express.static(__dirname));
+ // serves current directory

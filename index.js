@@ -37,3 +37,22 @@ btnSearchE1.addEventListener('click', () => {
     btnE1.className = "Search-image-1";
 });
 
+const toggleBtn = document.getElementById("search-toggle");
+		const searchBox = document.getElementById("search-box");
+		let isOpen = false;
+
+		toggleBtn.addEventListener("click", (e) => {
+			e.preventDefault(); // Prevent link from reloading page
+
+			if (!isOpen) {
+				searchBox.style.width = "200px"; // Show the box
+				searchBox.style.padding = "0.375rem 0.75rem";
+				searchBox.focus();
+			} else {
+				searchBox.style.width = "0"; // Hide the box
+				searchBox.style.padding = "0";
+			}
+
+			isOpen = !isOpen;
+		});
+
